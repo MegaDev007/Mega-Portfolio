@@ -472,33 +472,6 @@
                             "tags": ["Natif"]
                         }
                     }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/fr.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "French",
-                            "info": "Fluent in both spoken and written French; confident in professional communication.",
-                            "tags": ["Fluent"]
-                        },
-                        "es": {
-                            "title": "Francés",
-                            "info": "Fluido en francés hablado y escrito; seguro en la comunicación profesional.",
-                            "tags": ["Fluido"]
-                        },
-                        "fr": {
-                            "title": "Français",
-                            "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
-                            "tags": ["Courant"]
-                        }
-                    }
                 }
             ]
         }
