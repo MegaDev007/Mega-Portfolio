@@ -35,15 +35,15 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "**Website** design",
+                            "title": "**Website** development",
                             "text": "I can bring your best ideas into life!"
                         },
                         "es": {
-                            "title": "Diseño de **sitios web**",
+                            "title": "Desarrollo de **sitios web**",
                             "text": "¡Puedo hacer realidad tus mejores ideas!"
                         },
                         "fr": {
-                            "title": "Conception de **sites web**",
+                            "title": "Développement de **sites web**",
                             "text": "Je peux donner vie à vos meilleures idées !"
                         }
                     }
@@ -151,13 +151,29 @@
             "items": [
                 {
                     "icon": {
+                        "img": "images/svg/springboot.svg",
+                        "fa": "fa-brands fa-spring"
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "06/20/2016"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Spring Boot",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
                         "img": null,
                         "fa": "fa-brands fa-node-js",
                         "faColors": {"bg": "#339933", "fill": "#EEE"}
                     },
                     "value": 95,
                     "dates": {
-                        "start": "01/15/2019"
+                        "start": "01/15/2017"
                     },
                     "locales": {
                         "en": {
@@ -174,7 +190,7 @@
                     },
                     "value": 90,
                     "dates": {
-                        "start": "03/10/2019"
+                        "start": "03/10/2015"
                     },
                     "locales": {
                         "en": {
@@ -183,7 +199,8 @@
                         }
                     }
                 },
-                {
+                
+                 {
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-python",
@@ -191,7 +208,7 @@
                     },
                     "value": 85,
                     "dates": {
-                        "start": "06/20/2020"
+                        "start": "06/20/2017"
                     },
                     "locales": {
                         "en": {
@@ -203,16 +220,16 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-gem",
-                        "faColors": {"bg": "#CC0000", "fill": "#EEE"}
+                        "fa": "fa-brands fa-php",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
                     },
-                    "value": 80,
+                    "value": 90,
                     "dates": {
-                        "start": "08/30/2020"
+                        "start": "09/01/2018"
                     },
                     "locales": {
                         "en": {
-                            "title": "Ruby on Rails",
+                            "title": "PHP 8.0+",
                             "info": null
                         }
                     }
@@ -225,7 +242,25 @@
                     },
                     "value": 90,
                     "dates": {
-                        "start": "10/10/2020"
+                        "start": "10/10/2016"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Oracle SQL",
+                            "info": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "10/10/2017"
                     },
                     "locales": {
                         "en": {
@@ -237,10 +272,44 @@
                 {
                     "icon": {
                         "img": null,
+                        "fa": "fa-solid fa-server",
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "value": 80,
+                    "dates": {
+                        "start": "05/20/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MongoDB",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/svg/postgresql.svg",
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
+                    },
+                    "value": 65,
+                    "dates": {
+                        "start": "05/20/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PostgreSQL",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
                         "fa": "fa-brands fa-docker",
                         "faColors": {"bg": "#2496ED", "fill": "#EEE"}
                     },
-                    "value": 60,
+                    "value": 70,
                     "dates": {
                         "start": "04/15/2021"
                     },
@@ -251,23 +320,7 @@
                         }
                     }
                 },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-php",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "09/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "PHP 8.0+",
-                            "info": null
-                        }
-                    }
-                },
+                
                 {
                     "icon": {
                         "img": null,
@@ -288,20 +341,21 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-server",
-                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                        "fa": "fa-brands fa-aws",
+                        "faColors": {"bg": "#FF9900", "fill": "#EEE"}
                     },
-                    "value": 50,
+                    "value": 80,
                     "dates": {
-                        "start": "05/20/2024"
+                        "start": "07/10/2018"
                     },
                     "locales": {
                         "en": {
-                            "title": "MongoDB",
+                            "title": "Amazon Web Services",
                             "info": null
                         }
                     }
                 },
+
                 {
                     "icon": {
                         "img": null,
@@ -334,6 +388,106 @@
                 {
                     "icon": {
                         "img": null,
+                        "fa": "fa-brands fa-react",
+                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "06/20/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "info": null
+                        }
+                    }
+                } ,
+                {
+                    "icon": {
+                        "img": "images/svg/nextjs.svg",
+                        "fa": "fa-brands fa-nextjs"
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "02/10/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Next.js",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-angular",
+                        "faColors": {"bg": "#DD0031", "fill": "#EEE"}
+                    },
+                    "value": 40,
+                    "dates": {
+                        "start": "08/30/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Angular",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "03/10/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/svg/typescript.svg",
+                        "fa": "fa-brands fa-typescript",
+                        "faColors": {"bg": "#3178C6", "fill": "#EEE"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "03/10/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "TypeScript",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": "images/svg/Tailwind CSS.svg",
+                        "fa": "fa-brands fa-tailwindcss"
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "03/10/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Tailwind CSS",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
                         "fa": "fa-brands fa-html5",
                         "faColors": {"bg": "#E34F26", "fill": "#EEE"}
                     },
@@ -354,7 +508,7 @@
                         "fa": "fa-brands fa-css3",
                         "faColors": {"bg": "#1572B6", "fill": "#EEE"}
                     },
-                    "value": 65,
+                    "value": 90 ,
                     "dates": {
                         "start": "01/15/2019"
                     },
@@ -365,57 +519,8 @@
                         }
                     }
                 },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-js",
-                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "03/10/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "JavaScript ES6+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-react",
-                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "06/20/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "React",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-vuejs",
-                        "faColors": {"bg": "#4FC08D", "fill": "#111"}
-                    },
-                    "value": 40,
-                    "dates": {
-                        "start": "08/30/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Vue.js",
-                            "info": null
-                        }
-                    }
-                },
+
+                
                 {
                     "icon": {
                         "img": null,
@@ -433,6 +538,7 @@
                         }
                     }
                 }
+               
             ]
         },
 
