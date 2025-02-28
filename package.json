@@ -3,14 +3,14 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://github.com/MegaDev007/Mega-Portfolio",
+  "homepage": "https://MegaDev007.github.io/Mega-Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
